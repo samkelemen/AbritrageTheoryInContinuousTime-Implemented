@@ -7,7 +7,7 @@ Currently, only the discrete time models (up to, but not including, Chapter 4) h
 ---
 **The Binomial Model**
 
-Functionality: Performs all computations for a Binomial Model with one asset with interest rate R (ie. a bank account or bond) and one stochastic asset (ie. stock) that either goes up a predetermined amount, u, or down a predetermined amount, d, with probability p_u and p_d, respecively. The asset price process, martingale measures, value process and hedging portfolio for a given contract, completeness, and arbitrage freeness of the model can all be computed.
+**Functionality:** Performs all computations for a Binomial Model with one asset with interest rate R (ie. a bank account or bond) and one stochastic asset (ie. stock) that either goes up a predetermined amount, u, or down a predetermined amount, d, with probability p_u and p_d, respecively. The asset price process, martingale measures, value process and hedging portfolio for a given contract, completeness, and arbitrage freeness of the model can all be computed.
 
   **Step 1.** - Import the model and contingent claim module (if needed)
   ```python
