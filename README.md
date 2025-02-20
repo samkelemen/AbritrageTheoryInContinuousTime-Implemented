@@ -27,7 +27,7 @@ Currently, only the discrete time models (up to, but not including, Chapter 4) h
   call_contract = partial(cc.call_option, strike_price=80)
   ```
   
-  **Step 4.** - Example use case (find a hedging porfolio for the call contract).
+  **Step 4.** - Example use case (find a hedging porfolio for the above call contract).
   ```python
 hedging_portfolio1 = model1.compute_all_hedging_portfolios(call_contract)
 ```
