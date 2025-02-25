@@ -32,7 +32,7 @@ Currently, only the discrete time models (up to, but not including, Chapter 4) h
 hedging_portfolio = market_model.compute_all_hedging_portfolios(call_contract)
 ```
 
-**The Binomial Model**
+**The General One Period Model**
 
 **Functionality:** Can compute, given a D bar matrix, model completeness and arbitrage-free-ness. Addition contingent claims coming soon...
 
