@@ -45,7 +45,7 @@ hedging_portfolio = market_model.compute_all_hedging_portfolios(call_contract)
   **Step 2.** - Consruct the model with the desired D_bar matrix.
   ```python
   # Create a boring D_bar matrix with 3 states of the world and 3 stocks. 
-  D_bar = np.ones(shape=(3, 4))
+  D_bar = np.ones((3, 4))
 
   # Create the model.
   market_model = gopm.GeneralOnePeriodModel(D_bar)
